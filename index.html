@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sky of stars</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<input id="addSky" type="button" value="Add sky">
+
+<form>
+    <fieldset>
+        <label for="skies">Skies:</label>
+        <select name="skies" id="skies"></select>
+    </fieldset>
+    <fieldset class="wrapForm">
+        <legend>Miracle</legend>
+        <select id="dayOrNight">
+            <option selected disabled value="Day or Night">Day or Night</option>
+            <option value="day">Day</option>
+            <option value="night">Night</option>
+        </select>
+
+        <input id="addEntity" type="button" value="Add Entity">
+
+        <select id="dailyEntity">
+            <option selected disabled>Chose entity</option>
+            <option value="bird">Bird</option>
+            <option value="cloud">Cloud</option>
+        </select>
+
+        <select id="nightlyEntity">
+            <option selected disabled>Chose entity</option>
+            <option value="star">Star</option>
+        </select>
+    </fieldset>
+</form>
+
+<section class="mainContent">
+</section>
+<script src="./build/main.js"></script>
+</body>
+</html>
